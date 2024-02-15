@@ -1,0 +1,124 @@
+[
+    
+    {
+        "id": "easy",
+        "img": "img/easy.jpg",
+        "name": "easy",
+        "details": "انت في نابلس؟ 🥳",
+        "details2": "ليه تدفع كتير لما ممكن تدفع أقل؟ تطبيق ايزي بيوفرلك عروض وخصومات بريميوم (حصرية وأكتر من الطبيعي) من محلات بتحبها! لزيارة صفحتنا على انستغرام اضغط هنا أو لتحميل التطبيق مباشرة على موبايلك",
+        "link":"https://www.instagram.com/easy.app.palestine/",
+        "status":"most",
+        "githup": "",
+        "developer": ""
+    },
+    {
+        "id": "amazonprimestudent",
+        "img": "img/amazonprime.png",
+        "name": "amazon prime student",
+        "details": "خدمات متميزة من أمازون للطلاب.",
+        "details2": "6 أشهر أمازون برايم مجانا تشمل خصومات وكتب وأكثر، وبنصف السعر عند التجديد",
+        "link":"https://www.amazon.com/amazonprime?_encoding=UTF8&planOptimizationId=WLPStudentMonthlyEligiblePlans&primeCampaignId=studentWlpPrimeRedir&ref=mrp_10001_shr_cpbd_rf_d&ref_=st_wlp_pr_redir&refcust=4MSTP7XX5TP46YX2C6NTGJOSIM",
+        "status":"",
+        "githup": "",
+        "developer": ""
+    },
+    {
+        "id": "Microsoftoffice365",
+        "img": "img/Microsoftoffice365.png",
+        "name": "Microsoft office 365",
+        "details": "(PowerPoint, 1TB OneDrive, Word, Access, OneNote Excel) وباقي الشلة.",
+        "details2": "الحصول على حزمة أوفس 365 التعليمية مجانا، استخدام أونلاين فقط",
+        "link":"https://www.microsoft.com/en-us/education/students",
+        "status":"most",
+        "githup": "",
+        "developer": ""
+    },
+    {
+        "id": "googledrive",
+        "img": "img/googledrive.png",
+        "name": "google drive",
+        "details": "خدمة تخزين سحابي.",
+        "details2": "مساحة تخزينية غير محدودة",
+        "link":"https://drive.google.com/drive/my-drive",
+        "status":"",
+        "githup": "",
+        "developer": ""
+    },
+    {
+        "id": "AutoDesk",
+        "img": "img/AutoDesk.png",
+        "name": "AutoDesk",
+        "details": "عشرات البرامج في الهندسة والبناء وتصميم المنتج والتصنيع والإعلام والترفيه.",
+        "details2": "جميع البرامج مجانا طوال فترة الدراسة مثل: (AutoCad, 3D Max, Civil 3D, Tinkercad, Fusion360, Maya, Sketchbook) وغيرهم بلاوي ",
+        "link":"https://www.autodesk.com/education/edu-software/overview?AID=10282382&PID=4121194&SID=3947X638757X0bc817cd4fe51bea55a652ef56f86c82&sorting=featured&page=1&filters=me-products,individual",
+        "status":"",
+        "githup": "",
+        "developer": ""
+    },
+    {
+        "id": "Adobe",
+        "img": "img/Adobe.png",
+        "name": "Adobe",
+        "details": "برامج تصميم وتعديل صور وفيديوهات وأصوات ورسوم متحركة وغيرها.",
+        "details2": "حزمة تشمل جميع برامج أدوبي بخصم 63% على الإشتراك الشهري (Photoshop, Illustrator, InDesign, Premiere Pro) وباقي الشلة",
+        "link":"https://www.adobe.com/creativecloud/buy/students.html",
+        "status":"most",
+        "githup": "",
+        "developer": ""
+    },
+    {
+        "id": "Canva",
+        "img": "img/Canva.jpg",
+        "name": "Canva",
+        "details": "موقع يمكنك من عمل تصميمات احترافية بسهولة ووقت قصير دون الحاجة لخبرة مسبقة في التصميم.",
+        "details2": "خطة برو مجانا لمدة 12 شهر",
+        "link":"https://www.canva.com/education/students/",
+        "status":"most",
+        "githup": "true",
+        "developer": ""
+    },
+    {
+        "id": "CamScanner",
+        "img": "img/CamScanner.png",
+        "name": "Cam Scanner",
+        "details": "تطبيق سكانر للهاتف المحمول.",
+        "details2": "نسخة بريميوم مجانا ",
+        "link":"https://w103.camscanner.com/apply/index?l=en-us",
+        "status":"",
+        "githup": "",
+        "developer": ""
+    },
+    {
+        "id": "UpToDate",
+        "img": "img/UpToDate.png",
+        "name": "UpToDate",
+        "details": "(Medical) A must-have evidence-based clinical resource to help make smart, safe patient care decisions.",
+        "details2": "سعر مخفّض على الاشتراك ",
+        "link":"https://wkhealthce.my.site.com/customers/s/article/Do-you-have-special-rates-for-Residents-Fellows-and-Students?language=en_US",
+        "status":"",
+        "githup": "",
+        "developer": ""
+    },
+    {
+        "id": "picmonic",
+        "img": "img/picmonic.png",
+        "name": "picmonic",
+        "details": "(Medical) Mnemonic and visual learning platform for medical students.",
+        "details2": "خصم 20% على جميع الاشتراكات",
+        "link":"https://www.picmonic.com/pricing/medicine?utm_source=individual&utm_medium=affiliate",
+        "status":"",
+        "githup": "",
+        "developer": ""
+    },
+    {
+        "id": "visualdx",
+        "img": "img/visualdx.png",
+        "name": "visualdx",
+        "details": "(Medical) The VisualDx app is a diagnostic clinical decision support system which makes it easy to tackle challenging diagnosis through augmented thinking and timely visualization.",
+        "details2": "خصم 75%",
+        "link":"https://www.visualdx.com/pricing/students/",
+        "status":"",
+        "githup": "",
+        "developer": ""
+    }
+]

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>easyEdu</title>
+
+  
+
+    <!-- Link File Css -->
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="swiperJs/swiper-bundle.min.css">
+
+</head>
+<body>
+    
+    <div id="copydone">
+
+    </div>
+    <header id="header">
+        <nav>
+            <div class="logo-search">
+                <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+
+                <div class="links">
+                    <ul>
+                        <li class="active"><a href="#">الرئيسية</a></li>
+                        <li><a href="about.html">من نحن</a></li>
+                        <li><a href="index.html#allProduct">الخصومات</a></li>
+                        <li><a href="contact.html">تواصل معنا</a></li>
+                    
+                    
+                    </ul>
+                </div>
+
+                <div class="search-box">
+                    <input type="search" class="srch_inp" placeholder="ابحث عن الخصومات" onfocus="sho_ul_search()" onblur="hide_ul_search()" onkeyup="search()" >
+                    <div class="sear">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M14.9536 14.9458L21 21M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </div>
+
+                    <ul id="search_card" class="search_ul">
+                        
+                    </ul>
+                </div>
+
+              
+            </div>
+
+            
+        </nav>
+    </header>
+    
+    <section class="hero-sec">
+        <div class="container">
+            <div class="div-text">
+                <h1>اهـلا بك فـيـ <span>easyEdu</span></h1>
+            <h3>مصدر خاص لأحدث العروض والخصومات للبرامج التعليمية</h3>
+            
+            <p>أحدث كوبونات الخصم والعروض الحصرية من علامات تجارية مشهورة , نحن نجعلها متاحة لك بسهولة , مئات البرامج والخدمات بخصومات او مجانا ! بقيمة اكثر من <span>250,000$</span></p>
+            <a href="#" class="btn">استكشف العروض</a>
+        </div>
+
+            
+
+            <div class="div-img">
+                <img src="img/hero.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    
+    <section id="product" class="products">
+        <div class="container">
+            <div class="top-sec">
+                <span>الاكثر شهرة</span>
+                <h3>البرامج والمواقع الاكثر شهرة ف الاستخدام</h3>
+            </div>
+
+
+            <div class="swiper-container">
+
+                <div class="swiper-wrapper" id="slicecontent">
+                    
+                 
+
+
+
+
+           
+               
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="allcoupon">
+
+        <div id="allProduct" class="top-sec">
+            <h1>جميع العروض و الخصومات علي المواقع والبرامج</h1>
+            <p></p>
+        </div>
+        <div class="container">
+            <div id="allcoupons_id" class="boxs">
+               
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <section class="newsletter">
+        <div class="container">
+            <div class="text">
+
+            </div>
+        </div>
+    </section> -->
+
+
+    <footer>
+        <div class="container">
+            <div class="big-rows">
+              <h6 class="logo"><span>easyEdu</span></h6>
+              <p>مصدر خاص لأحدث العروض والخصومات للبرامج التعليمية بقيمة اكثر من 250,000$</p>  
+            </div>
+
+            <div class="row">
+                <div class="links">
+                    <a href="#"> <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(90)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.70711 9.71069C5.31658 10.1012 5.31658 10.7344 5.70711 11.1249L10.5993 16.0123C11.3805 16.7927 12.6463 16.7924 13.4271 16.0117L18.3174 11.1213C18.708 10.7308 18.708 10.0976 18.3174 9.70708C17.9269 9.31655 17.2937 9.31655 16.9032 9.70708L12.7176 13.8927C12.3271 14.2833 11.6939 14.2832 11.3034 13.8927L7.12132 9.71069C6.7308 9.32016 6.09763 9.32016 5.70711 9.71069Z" fill="#fff"></path> </g></svg> الرئيسية</a>
+                    <a href="about.html"> <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(90)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.70711 9.71069C5.31658 10.1012 5.31658 10.7344 5.70711 11.1249L10.5993 16.0123C11.3805 16.7927 12.6463 16.7924 13.4271 16.0117L18.3174 11.1213C18.708 10.7308 18.708 10.0976 18.3174 9.70708C17.9269 9.31655 17.2937 9.31655 16.9032 9.70708L12.7176 13.8927C12.3271 14.2833 11.6939 14.2832 11.3034 13.8927L7.12132 9.71069C6.7308 9.32016 6.09763 9.32016 5.70711 9.71069Z" fill="#fff"></path> </g></svg> من نحن</a>
+                    <a href="index.html#allProduct"> <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(90)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.70711 9.71069C5.31658 10.1012 5.31658 10.7344 5.70711 11.1249L10.5993 16.0123C11.3805 16.7927 12.6463 16.7924 13.4271 16.0117L18.3174 11.1213C18.708 10.7308 18.708 10.0976 18.3174 9.70708C17.9269 9.31655 17.2937 9.31655 16.9032 9.70708L12.7176 13.8927C12.3271 14.2833 11.6939 14.2832 11.3034 13.8927L7.12132 9.71069C6.7308 9.32016 6.09763 9.32016 5.70711 9.71069Z" fill="#fff"></path> </g></svg> الخصومات</a>
+                    <a href="contact.html"> <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(90)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.70711 9.71069C5.31658 10.1012 5.31658 10.7344 5.70711 11.1249L10.5993 16.0123C11.3805 16.7927 12.6463 16.7924 13.4271 16.0117L18.3174 11.1213C18.708 10.7308 18.708 10.0976 18.3174 9.70708C17.9269 9.31655 17.2937 9.31655 16.9032 9.70708L12.7176 13.8927C12.3271 14.2833 11.6939 14.2832 11.3034 13.8927L7.12132 9.71069C6.7308 9.32016 6.09763 9.32016 5.70711 9.71069Z" fill="#fff"></path> </g></svg> تواصل معنا</a>
+               
+                </div>
+            </div>
+
+            
+          
+        </div>
+        <div class="bottom-footer">
+           <div class="content">
+            <p>&copy; 2024 | Made by Love With <span>Mahmoud Reda</span></p>
+
+           </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="main.js"></script>
+    
+    <script src="swiperJs/swiper-bundle.min.js"></script>
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            loop: true,
+            autoplay: {
+                delay: 1000, // وقت التأخير بين الشرائح بالمللي ثانية
+                disableOnInteraction: false, // تعطيل التشغيل التلقائي عند التفاعل مع المستخدم (باستخدام الماوس)
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    
+        var Swiperrwapp = document.getElementById("products")
+    
+        Swiperrwapp.addEventListener('mouseenter', function () {
+            mySwiper.autoplay.stop();
+        });
+    
+        // إضافة حدث لإعادة تشغيل التشغيل التلقائي عندما يتم مغادرة الماوس
+        Swiperrwapp.addEventListener('mouseleave', function () {
+            mySwiper.autoplay.start();
+        });
+    </script>
+
+
+<script>
+    fetch('data.json')
+.then(response => response.json())
+       .then(data2 => displayImages2(data2))
+       .catch(error => console.error('حدث خطأ في استرجاع بيانات المنتجات:', error));
+
+
+       // for all cards
+       function displayImages2(images2) {
+          
+           // for search bar
+
+           var search_card = document.getElementById('search_card');
+   
+   images2.forEach(function (card2) {
+    search_card.innerHTML += `  
+
+    <a href="#${card2.id}" class="sm-card" onclick="changecardColor('${card2.id}')">
+        <img src="${card2.img}" alt="">
+        <h1 class="searchName">${card2.name}</h1>
+    </a>
+
+    ` ;
+
+   });
+
+       }
+   </script>
+
+
+
+</script>
+</body>
+</html>
