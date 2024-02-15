@@ -3,7 +3,7 @@
 
         function copyCode(cardId) {
 
-            var shareLink = "https://easyedu.me" + '#' + cardId;
+            var shareLink = "https://mahmoudreda11.github.io/easyedu/" + '#' + cardId;
             console.log(shareLink)
             var textarea = document.createElement("textarea");
             textarea.value = shareLink;
